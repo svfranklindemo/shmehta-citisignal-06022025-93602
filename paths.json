@@ -1,19 +1,27 @@
 {
+  "mappings": [
+    "/content/shmehta/Projects/:/",
+    "/content/shmehta/Projects/metadata.json:/metadata.json",
+    "/content/shmehta/Projects/redirects.json:/redirects.json"
+  ]
+}
+
+{
     "mappings": [
-      "/content/citisignal-one/:/",
-      "/content/citisignal-one/configuration:/.helix/config.json",
-      "/content/citisignal-one/metadata:/metadata.json",
-      "/content/citisignal-one/configs:/configs.json",
-      "/content/citisignal-one/configs-stage:/configs-stage.json",
-      "/content/citisignal-one/configs-dev:/configs-dev.json",
-      "/content/citisignal-one/redirects:/redirects.json",
-      "/content/citisignal-one/placeholders:/placeholders.json",
-      "/content/citisignal-one/products/recommended-products:/products/recommended-products.json",
-      "/content/citisignal-one/enrichment/enrichment:/enrichment/enrichment.json",
-      "/content/dam/citisignal/images/products/:/images/products/"
+      "/content/shmehta/Projects/:/",
+      "/content/shmehta/Projects/configuration:/.helix/config.json",
+      "/content/shmehta/Projects/metadata:/metadata.json",
+      "/content/shmehta/Projects/configs:/configs.json",
+      "/content/shmehta/Projects/configs-stage:/configs-stage.json",
+      "/content/shmehta/Projects/configs-dev:/configs-dev.json",
+      "/content/shmehta/Projects/redirects:/redirects.json",
+      "/content/shmehta/Projects/placeholders:/placeholders.json",
+      "/content/shmehta/Projects/products/recommended-products:/products/recommended-products.json",
+      "/content/shmehta/Projects/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/shmehta/Projects/images/products/:/images/products/"
     ],
     "includes": [
-      "/content/citisignal-one",
+      "/content/shmehta/Projects",
       "/content/dam/citisignal/images/products/"
     ]
 }
